@@ -56,7 +56,10 @@ Perintah git show digunakan untuk menampilkan informasi tentang object pada git.
 19. git config --list
 Perintah git config digunakan untuk menampilkan atau mengkonfigurasi user.name dan user.email pada repository git.
 
-20. Membuat repository baru diterminal & github :
+20. git remote remove <remote_name>
+Perintah ini di gunakan untuk menghapus remote yang ada di repository git.
+
+30. Membuat repository baru diterminal & github :
 	1. mkdir folder
 	2. git init
 	3. echo "# folder" >> readme.md
