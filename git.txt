@@ -59,6 +59,9 @@ Perintah git config digunakan untuk menampilkan atau mengkonfigurasi user.name d
 20. git remote remove <remote_name>
 Perintah ini di gunakan untuk menghapus remote yang ada di repository git.
 
+21. .gitignore
+Ini adalah sebuah file yang bisa menampung semua folder atau file yang tidak ingin di commit ke github, saat user mengetikkan git add . maka semua file akan di add ke commit. agar ini tidak terjadi simpanlah folder atau file ke .gitignore
+
 30. Membuat repository baru diterminal & github :
 	1. mkdir folder
 	2. git init
